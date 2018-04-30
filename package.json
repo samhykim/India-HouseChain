@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "wp": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -19,10 +21,12 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "json-loader": "^0.5.7",
+    "lite-server": "^2.3.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "style-loader": "^0.21.0",
     "web3": "^1.0.0-beta.34",
-    "webpack": "^4.6.0"
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
   }
 }
